@@ -212,3 +212,11 @@ ion-icon {
     height: 100%;
     color: var(--partner-color);
 }
+
+@media (max-width: 550px){
+    .calculator-body {
+        height: 100vh;
+        width: 100vw;
+        scale: 1.4;
+    }
+}
